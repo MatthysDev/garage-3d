@@ -3,6 +3,7 @@ import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import {MeshBVH,acceleratedRaycast} from 'three-mesh-bvh';
 import {PARTS} from './parts3d.js';
 import './car.js';
+import './fit.js';
 import {ENDS,LINKS} from './detail.js';
 import {material} from './kit.js';
 const S0=new T.Sphere();T.Mesh.prototype.raycast=function(r,h){const g=this.geometry;if(!g.boundingSphere)g.computeBoundingSphere();S0.copy(g.boundingSphere).applyMatrix4(this.matrixWorld);if(!r.ray.intersectsSphere(S0))return;if(!g.boundsTree)g.boundsTree=new MeshBVH(g);acceleratedRaycast.call(this,r,h)};import {MAT} from './kit.js';
