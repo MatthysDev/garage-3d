@@ -1,0 +1,6 @@
+:root{color-scheme:light;--bg:#eef1f3;--pn:#fff;--s2:#eef1f4;--tx:#12171b;--mu:#4d5761;--ln:#cfd6dc;--ac:#0a5cab;--on:#fff;--ok:#0f6a40;--sus:#8f4700;--leak:#b3161b;--sh:0 2px 14px #1a2a3a26}
+:root[data-theme=dark]{color-scheme:dark;--bg:#0d1013;--pn:#161a1e;--s2:#232930;--tx:#f0f3f5;--mu:#aab5be;--ln:#39424a;--ac:#86c4ff;--on:#06131f;--ok:#66d89f;--sus:#ffb75e;--leak:#ff938a;--sh:0 2px 16px #0008}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}html,body{height:100%}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,-apple-system,sans-serif;-webkit-text-size-adjust:100%}
+button,input,select,textarea{font:inherit;color:var(--tx);background:var(--pn);border:1px solid var(--ln);border-radius:9px;padding:7px 11px;min-height:36px}::placeholder{color:var(--mu);opacity:1}option{color:var(--tx);background:var(--pn)}
+button{cursor:pointer;touch-action:manipulation}button:disabled{color:var(--mu);border-style:dashed;cursor:default}:focus-visible{outline:3px solid var(--ac);outline-offset:1px}a{color:var(--ac)}input[type=checkbox],input[type=range]{accent-color:var(--ac)}input[type=range]{padding:0;min-height:28px}
+[hidden]{display:none!important}

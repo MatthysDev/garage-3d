@@ -1,0 +1,1 @@
+{"name":"garage-3d","private":true,"scripts":{"build":"esbuild main.js --bundle --minify --format=iife --charset=utf8 --outfile=../mini-r56/app.js && cp app.css ../mini-r56/app.css"},"dependencies":{"esbuild":"^0.28.2","three":"^0.170.0","three-mesh-bvh":"^0.7.8"}}
